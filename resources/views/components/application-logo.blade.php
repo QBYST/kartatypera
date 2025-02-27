@@ -1,0 +1,1 @@
+<img src="{{ asset('storage/site_resources/app_logo.png') }}" alt="Photo" height="75px" width="75px">

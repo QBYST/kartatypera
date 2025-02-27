@@ -1,0 +1,56 @@
+# creating laravel project
+composer create-project laravel/laravel ddev-laravel && cd ddev-laravel
+
+# in ddev-laravel
+ddev config
+ddev start
+
+# w config.yaml 
+docroot: public
+
+# odpalenie phpmyadmin
+ddev phpmyadmin
+
+# haslo do admina
+depores1337@gmail.com
+!AdMiN1337#
+
+# admin 2
+qbyst@o2.pl
+!AdMiN1337#
+
+# nieadmin
+user@gmail.com
+!uSeR1337#
+
+# nieadmin 2
+depor@gmail.com
+!uSeR1337#
+
+# nieadmin 3
+plebcio@gmail.com
+!uSeR1337#
+
+
+
+1 4 5 2 3 7 -1
+
+
+
+
+a=1 b=4   a=1 b=4   a=1 b=2   a=1 b=2   a=1 b=2   a=1
+a=4 b=5   a=4 b=2   a=2 b=3   a=2 b=3   a=2
+a=5 b=2   a=4 b=3   a=3 b=4   a=3 b=4
+a=5 b=3   a=4 b=5   a=4 b=5   a=4 
+a=5 b=7   a=5 b=7   a=5 b=7
+a=7 b=-1  a=7 b=-1  a=7 b=-1 
+
+
+
+5 2 1 4 8 -1
+
+a=5 b=2   a=2 b=1   a=1 b=2   a=1 b=2   a=1 b=2     1 2 4 5 8 -1 
+a=5 b=1   a=2 b=4   a=2 b=4   a=2 b=4   a=2 b=4
+a=5 b=4   a=4 b=5   a=4 b=5   a=4 b=5   a=4 b=5
+a=5 b=8   a=5 b=8   a=5 b=8   a=5 b=8   a=5 b=8
+a=8 b=-1  a=8 b=-1  a=8 b=-1  a=8 b=-1  a=8 b=-1
