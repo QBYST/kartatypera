@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "NODE_ENV": "production"
+    }
+  },
+  "hooks": {
+    "build": "rm -rf storage/framework/views && mkdir -p storage/framework/views storage/framework/cache storage/framework/sessions"
+  }
+}
