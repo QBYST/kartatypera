@@ -17,7 +17,8 @@
     }
 	"scripts": {
 		"prebuild": "mkdir -p storage/framework/views storage/framework/cache storage/framework/sessions",
-		"build": "npm run vite build"
+        "prebuild": "rm -rf storage/framework/views && mkdir -p storage/framework/views storage/framework/cache storage/framework/sessions",
+		"build": "npm run vite build"  
 	}
 	
 }
